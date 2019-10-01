@@ -1,3 +1,14 @@
+# Hon ignores
+_book/
+book/
+
+# VSCode
+.history/
+.ignore/
+.vscode/*
+!.vscode/settings.json
+_plugins/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -24,6 +35,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+requirements.txt
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
